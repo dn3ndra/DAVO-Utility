@@ -14,12 +14,12 @@ No installation required — just run the `.exe`.
 
 ## Features
 
-- ** PDF Timestamp Annotation** — Automatically annotate directional survey PDFs with timestamps from a CSV or Excel file, using direct matching and interpolation
-- ** ECD Calculator** — Single and batch Equivalent Circulating Density calculations with results in ppg, SG, kPa/m, and bar
-- ** ECD Chart Visualization** — Interactive depth vs ECD charts rendered from batch data
-- ** Drag & Drop** — Drop PDF and data files directly into the app
-- ** Auto-Update** — The app checks for new versions on startup and can update itself automatically
-- ** Dark / Light Theme** — Switch themes from the Settings menu
+- **📄 PDF Timestamp Annotation** — Automatically annotate directional survey PDFs with timestamps from a CSV or Excel file, using direct matching and interpolation
+- **💡 ECD Calculator** — Single and batch Equivalent Circulating Density calculations with results in ppg, SG, kPa/m, and bar
+- **📊 ECD Chart Visualization** — Interactive depth vs ECD charts rendered from batch data
+- **🗂️ Drag & Drop** — Drop PDF and data files directly into the app
+- **🔄 Auto-Update** — The app checks for new versions on startup and can update itself automatically
+- **🎨 Dark / Light Theme** — Switch themes from the Settings menu
 
 ---
 
