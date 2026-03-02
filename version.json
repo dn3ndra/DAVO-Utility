@@ -1,8 +1,11 @@
 {
   "version": "2.0",
-  "release_date": "2026-02-28",
-  "message": "You are on the latest version.",
-  "download_url": "https://github.com/dn3ndra/DAVO-Utility/releases/latest",
+  "message": "DAVO v2.0 is now available with new features and bug fixes.",
+  "download_url": "https://github.com/dn3ndra/DAVO-Utility/releases/download/v2.0/DAVO.exe",
   "force": false,
-  "release_notes": []
+  "release_notes": [
+    "Splash screen on startup",
+    "ECD Calculator tab",
+    "Auto-update support"
+  ]
 }
