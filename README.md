@@ -1,10 +1,10 @@
-# DAVO — Directional Analysis & Visualization Operations
+# DAVO - Directional Analysis & Visualization Operations
 
 > A professional desktop utility for MWD and directional drilling — PDF timestamp annotation, ECD calculations, and more.
 
 ---
 
-## ⬇️ Download
+## Download
 
 Head to the [**Releases**](https://github.com/dn3ndra/DAVO-Utility/releases/latest) page and download the latest `DAVO.exe`.
 
@@ -12,18 +12,18 @@ No installation required — just run the `.exe`.
 
 ---
 
-## ✨ Features
+## Features
 
-- **📄 PDF Timestamp Annotation** — Automatically annotate directional survey PDFs with timestamps from a CSV or Excel file, using direct matching and interpolation
-- **💡 ECD Calculator** — Single and batch Equivalent Circulating Density calculations with results in ppg, SG, kPa/m, and bar
-- **📊 ECD Chart Visualization** — Interactive depth vs ECD charts rendered from batch data
-- **🗂️ Drag & Drop** — Drop PDF and data files directly into the app
-- **🔄 Auto-Update** — The app checks for new versions on startup and can update itself automatically
-- **🎨 Dark / Light Theme** — Switch themes from the Settings menu
+- ** PDF Timestamp Annotation** — Automatically annotate directional survey PDFs with timestamps from a CSV or Excel file, using direct matching and interpolation
+- ** ECD Calculator** — Single and batch Equivalent Circulating Density calculations with results in ppg, SG, kPa/m, and bar
+- ** ECD Chart Visualization** — Interactive depth vs ECD charts rendered from batch data
+- ** Drag & Drop** — Drop PDF and data files directly into the app
+- ** Auto-Update** — The app checks for new versions on startup and can update itself automatically
+- ** Dark / Light Theme** — Switch themes from the Settings menu
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Download & Run
 Download `DAVO.exe` from [Releases](https://github.com/dn3ndra/DAVO-Utility/releases/latest) and double-click to launch.
@@ -44,13 +44,13 @@ Download `DAVO.exe` from [Releases](https://github.com/dn3ndra/DAVO-Utility/rele
 - Click **Calculate ECD** — results appear instantly in ppg, SG, kPa/m, and bar
 
 **Batch processing:**
-- Click **📂 Load File** and select a CSV or XLSX with pressure and TVD columns
+- Click **Load File** and select a CSV or XLSX with pressure and TVD columns
 - Results are appended as new columns and saved to an Excel file
-- Click **📈 Chart** to visualize ECD vs depth
+- Click **Chart** to visualize ECD vs depth
 
 ---
 
-## 📁 Timestamp File Format
+## Timestamp File Format
 
 Your CSV or Excel file needs at minimum two columns. Column names are detected automatically — no exact naming required.
 
@@ -65,7 +65,7 @@ Supported time column names: `Timestamp`, `Time`, `DateTime`, `Date`
 
 ---
 
-## 📁 ECD Batch File Format
+## ECD Batch File Format
 
 | P_Annular | TVD | MudWeight |
 |-----------|-----|-----------|
@@ -78,7 +78,7 @@ Mud weight column is optional.
 
 ---
 
-## ⚙️ Settings
+## Settings
 
 Access via the **⚙ Settings** menu in the top bar:
 - Toggle **Dark / Light** theme
@@ -86,7 +86,7 @@ Access via the **⚙ Settings** menu in the top bar:
 
 ---
 
-## 🔄 Auto-Update
+## Auto-Update
 
 DAVO checks for updates 2 seconds after launch. If a new version is available, a popup will appear with release notes and a one-click install button. The updater downloads the new `.exe`, replaces the old one, and relaunches automatically.
 
@@ -94,7 +94,7 @@ To disable update checks, set the environment variable `DAVO_DEV=1` before launc
 
 ---
 
-## 🛠️ Building from Source
+## Building from Source
 
 **Requirements:**
 - Python 3.9+
@@ -114,7 +114,7 @@ The compiled `.exe` will be in the `dist/` folder.
 
 ---
 
-## 📋 Requirements (for running from source)
+## Requirements (for running from source)
 
 ```
 PyQt5
@@ -127,7 +127,7 @@ matplotlib
 
 ---
 
-## 📝 Logs
+## Logs
 
 A log file is written to:
 ```
@@ -138,13 +138,13 @@ Check this file if you encounter any issues.
 
 ---
 
-## 👤 Author
+## Author
 
 **Dhanendra N.**  
 [github.com/dn3ndra](https://github.com/dn3ndra)
 
 ---
 
-## 📄 License
+## License
 
 This project is proprietary software. All rights reserved.
